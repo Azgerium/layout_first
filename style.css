@@ -210,3 +210,109 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+
+.catalog-projects {
+    background-image: url(photo/catalog-projects/background.png);
+    background-position: right -200px bottom;
+    background-repeat: no-repeat;
+}
+
+.common-projects-title {
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 25px;
+}
+
+
+.on-top-projects {
+    display: flex;
+}
+
+.habitable-project {
+    width: 370px;
+    background-color: white;
+    
+}
+
+.habitable-project-image,.commerce-project-image {
+    text-align: center;
+}
+
+.project-info {
+    margin: 36px 20px 20px 50px;
+}
+
+.project-title {
+    font-family: Gilroy;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 10px;
+}
+
+.project-text {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.project-get-more-info-image {
+    display: flex;
+    text-align: left;
+}
+
+.project-info-img {
+    object-fit: none;
+    margin-right: 12px;
+}
+
+.project-info-text {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #CB8734;
+}
+
+.commerce-project{
+    width: 370px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.on-bottom-projects {
+    margin-top: 35px;
+}
+
+.garden-project {
+    display: flex;
+    width: 770px;
+    background-color: white;
+    border-top-right-radius: 40px;
+}
+
+.project-garden-info {
+    margin: 50px 50px;
+}
+
+.project-garden-img {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
