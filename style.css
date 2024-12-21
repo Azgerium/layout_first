@@ -146,7 +146,7 @@
 }
 
 .btn-to-catalog-bath {
-    font-size: 'Gilroy', sans-serif !important;
+    font-family: 'Gilroy', sans-serif !important;
     color: #CB8734;
     text-decoration: none;
     margin-left: 85px;
@@ -162,4 +162,51 @@
 .information-about-tasks {
     display: flex;
     justify-content: space-between;
+}
+
+.choose-us {
+    margin-top: 130px;
+    margin-bottom: 195px;
+}
+
+.choose-us-title {
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.choose-us-reason {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reason {
+    text-align: left;
+}
+
+.reason-title {
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.reason-text {
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
