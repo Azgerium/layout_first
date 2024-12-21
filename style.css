@@ -82,6 +82,8 @@
     background-color: #3D1E19;
     padding-top: 25px;
     padding-bottom: 25px;
+    box-shadow: 0px 0px 20px 0px #2B2A2833;
+    border-radius: 8px;
 }
 
 .left-button {
@@ -102,4 +104,62 @@
     color: black;
     text-decoration: none;
     margin-left: 80px;
+}
+
+.info-title {
+    width: 551px;
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 120px;
+}
+
+.info-text {
+    width: 502px;
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.info-btn-to-catalogs {
+    margin-top: 50px;
+    
+}
+
+.btn-to-catalog-house {
+    font-family: 'Gilroy', sans-serif !important;
+    background-image: linear-gradient(to right, #F39C32, #CB8734);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 25px 20px;
+    font-weight: 700;
+}
+
+.btn-to-catalog-bath {
+    font-size: 'Gilroy', sans-serif !important;
+    color: #CB8734;
+    text-decoration: none;
+    margin-left: 85px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.information-about-tasks {
+    display: flex;
+    justify-content: space-between;
 }
