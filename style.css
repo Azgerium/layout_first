@@ -402,7 +402,11 @@
     background-repeat: no-repeat;
 }
 
-.intermediate-img {
-    object-fit: cover;
+.slider {
+    margin-bottom: 145px;
+}
+
+.slider-image {
     text-align: center;
+    margin-bottom: 40px;
 }
