@@ -410,3 +410,213 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+
+.about {
+    margin-bottom: 290px;
+}
+
+.about-title {
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 67px;
+}
+
+.about-photo {
+    text-align: center;
+    position: relative;
+}
+  
+.human-about {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    /* top: -78px;
+    left: 550px; */
+
+}
+
+.about-desc-card {
+    position: relative ;
+    z-index: 9999;
+}
+
+.about-desc {
+    position: absolute;
+    background-color: white;
+    width: 570px;
+    margin: auto;
+    display: flex;
+    /* top: -100px;
+    left: 468px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.about-desc-logo {
+    object-fit: none;
+    margin: 38px 22px 96px 43px;
+}
+
+.about-info {
+    text-align: right;
+    margin: 41px 51px 35px 0px;
+}
+
+.about-info-title {
+    width: 400px;
+    height: 30px;
+    top: 4797.76px;
+    left: 794px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    z-index: 2;
+}   
+
+.about-info-text {
+    width: 400px;
+    height: 78px;
+    top: 4833.76px;
+    left: 794px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    z-index: 0;
+}
+
+.history-advantages {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.history-number-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-number {
+    font-family: Gilroy;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #CB8734;
+    border-bottom: 2px solid #CB8734;
+    width: 270px;
+    padding-bottom: 15px;
+}
+
+.history-number span {
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #CB8734;
+}
+
+.history-text {
+    width: 231px;
+    height: 60px;
+    top: 5124px;
+    left: 375px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 18px;
+}
+
+.button-get-more-info {
+    text-align: center;
+}
+
+
+.types-of-structure-title {
+    width: 467px;
+    height: 96px;
+    top: 5610px;
+    left: 373px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+}
+
+.types-of-structure-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.types-of-structure-info {
+    width: 370px;
+}
+
+.structure-info {
+    margin: 10px 9px 290px 40px;
+    width: 321px;
+}
+
+.structure-info-title {
+    width: 301px;
+    height: 30px;
+    top: 6067px;
+    left: 415px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+}
+
+.structure-variants {
+    margin-bottom: 25px;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
